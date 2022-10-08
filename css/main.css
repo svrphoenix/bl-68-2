@@ -1,6 +1,6 @@
 body {
-  font-family: 'Poppins', sans-serif;
-  background-color:#283036;
+  font-family: "Poppins", sans-serif;
+  background-color: #283036;
 }
 ul,
 ol {
@@ -60,19 +60,18 @@ a {
   color: rgba(255, 255, 255, 0.55);
 }
 
-
 /* Most Popular Tools */
-.title{
-    font-weight: 500;
-    font-size: 48px;
-    line-height: calc(62/48);
-    color: rgba(255, 255, 255, 0.9);
-}
-.tools-title{
+.title {
   font-weight: 500;
-    font-size: 24px;
-    line-height: calc(36/24);
-    color: rgba(255, 255, 255, 0.78);
+  font-size: 48px;
+  line-height: calc(62 / 48);
+  color: rgba(255, 255, 255, 0.9);
+}
+.tools-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: calc(36 / 24);
+  color: rgba(255, 255, 255, 0.78);
 }
 
 .tools-text {
@@ -82,43 +81,65 @@ a {
   color: rgba(255, 255, 255, 0.55);
 }
 
-.tools-span{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: calc(27/18);
-    color: rgba(255, 165, 55, 0.55);
+.tools-span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(27 / 18);
+  color: rgba(255, 165, 55, 0.55);
 }
 
-.button-tools{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: calc(30/20);
-    color: #FF6E30;
-    font-family: inherit;
+.button-tools {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(30 / 20);
+  color: #ff6e30;
+  font-family: inherit;
 
-    background-color: transparent;
-      cursor: pointer;
-      padding: 12px 28px;
-      border: 1px solid;
-      border-radius: 8px;
-      border-color: rgba(255, 255, 255, 0.1)
+  background-color: transparent;
+  cursor: pointer;
+  padding: 12px 28px;
+  border: 1px solid;
+  border-radius: 8px;
+  border-color: rgba(255, 255, 255, 0.1);
 }
 .button-tools:hover,
-.button-tools:focus{
-  background-color: #FF6E30;
+.button-tools:focus {
+  background-color: #ff6e30;
   color: rgba(255, 255, 255, 0.78);
 }
 /* Trusted */
-.trusted-title{
-    font-weight: 500;
-    font-size: 24px;
-    line-height: calc(36/24); 
-    color: rgba(255, 255, 255, 0.8);
+.trusted-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: calc(36 / 24);
+  color: rgba(255, 255, 255, 0.8);
 }
-.description{
+.description {
   font-weight: 500;
   font-size: 18px;
-  line-height: calc(30/18);
+  line-height: calc(30 / 18);
   color: rgba(255, 255, 255, 0.55);
+}
+/* СЕКЦІЯ TEAM */
+.team-title {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: calx(39px / 26px);
+  letter-spacing: 0.015em;
+  color: rgba(255, 253, 253, 0.78);
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: calc(24px / 16px);
+  color: rgba(255, 253, 253, 0.55);
+}
+
+.team-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: calc(30px / 14px);
+  letter-spacing: 0.015em;
+  color: rgba(255, 255, 255, 0.78);
 }
