@@ -1,42 +1,63 @@
 body {
-  font-family: "Poppins", sans-serif;
-  background-color: #C4C4C4;;
+  font-family: 'Poppins', sans-serif;
+  background-color: #c4c4c4;
 }
-ul,ol{
-  margin:0;
+ul,
+ol {
+  margin: 0;
   list-style: none;
   padding: 0;
 }
-a{
+a {
   text-decoration: none;
 }
-.logo{
-    font-weight: 600;
-    font-size: 22px;
-    line-height: calc(33/22);
-    color: rgba(255, 255, 255, 0.9);
+.logo {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: calc(33 / 22);
+  color: rgba(255, 255, 255, 0.9);
 }
 
-.menu-item{
+.menu-item {
   font-weight: 500;
-    font-size: 16px;
-    line-height: calc(24/16);
-    color: rgba(255, 255, 255, 0.55);
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  color: rgba(255, 255, 255, 0.55);
 }
-.enter-button{
+.enter-button {
   font-weight: 600;
   font-family: inherit;
-    font-size: 16px;
-    line-height: calc(24/16);
-    color: rgba(255, 255, 255, 0.78);
-    background-color: transparent;
-    cursor: pointer;
-    padding: 12px 28px;
-    border: none;
-    border-radius: 8px;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  color: rgba(255, 255, 255, 0.78);
+  background-color: transparent;
+  cursor: pointer;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 8px;
 }
 
 .enter-button:hover,
-.enter-button:focus{
-  background-color: #FF6E30;
+.enter-button:focus {
+  background-color: #ff6e30;
+}
+
+/* HERO */
+
+.hero-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: calc(70 / 50);
+
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.hero-description {
+  font-family: 'Poppins';
+  font-size: 18px;
+  line-height: calc(30 / 18);
+
+  color: rgba(255, 255, 255, 0.55);
 }
