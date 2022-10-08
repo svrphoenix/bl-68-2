@@ -62,7 +62,12 @@ a {
 
 
 /* Most Popular Tools */
-
+.title{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: calc(62/48);
+    color: rgba(255, 255, 255, 0.9);
+}
 .tools-title{
   font-weight: 500;
     font-size: 24px;
@@ -103,4 +108,17 @@ a {
 .button-tools:focus{
   background-color: #FF6E30;
   color: rgba(255, 255, 255, 0.78);
+}
+/* Trusted */
+.trusted-title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: calc(36/24); 
+    color: rgba(255, 255, 255, 0.8);
+}
+.description{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: calc(30/18);
+  color: rgba(255, 255, 255, 0.55);
 }
